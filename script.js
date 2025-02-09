@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
     '¡Perfecto, llevas tres, no te detengas!',
     '¡Increíble, sólo falta uno más!',
     '¡Felicidades, has completado el laberinto!'
-];
+    ];
 
     comenzarBtn.addEventListener('click', iniciarJuego);
     reiniciarBtn.addEventListener('click', () => location.reload());
