@@ -59,11 +59,11 @@ document.addEventListener('DOMContentLoaded', () => {
     let preguntasResueltas = 0;
 
     const historia = [
-    '¡Bienvenido al laberinto de geografía! Resuelve 5 problemas para completarlo.',
-    '¡Muy bien, ahora hay que vencer al siguiente!',
+    '¡Bienvenido al laberinto de geografía! Resuelve 5 preguntas para completarlo.',
+    '¡Muy bien, ahora hay que resolver la siguiente pregunta!',
     '¡Excelente, ya llevas dos, sigue así!',
     '¡Perfecto, llevas tres, no te detengas!',
-    '¡Increíble, sólo falta uno más!',
+    '¡Increíble, sólo falta una más!',
     '¡Felicidades, has completado el laberinto!'
     ];
 
