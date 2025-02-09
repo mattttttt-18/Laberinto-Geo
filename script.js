@@ -59,13 +59,13 @@ document.addEventListener('DOMContentLoaded', () => {
     let preguntasResueltas = 0;
 
     const historia = [
-        '¡Bienvenido al laberinto de geografía! Resuelve 5 problemas para completarlo.',
-        '¡Muy bien, ahora hay que vencer al siguiente!',
-        '¡Muy bien, ahora hay que vencer al siguiente!',
-        '¡Muy bien, ahora hay que vencer al siguiente!',
-        '¡Muy bien, ahora hay que vencer al siguiente!',
-        '¡Felicidades, has completado el laberinto!'
-    ];
+    '¡Bienvenido al laberinto de geografía! Resuelve 5 problemas para completarlo.',
+    '¡Muy bien, ahora hay que vencer al siguiente!',
+    '¡Excelente, ya llevas dos, sigue así!',
+    '¡Perfecto, llevas tres, no te detengas!',
+    '¡Increíble, sólo falta uno más!',
+    '¡Felicidades, has completado el laberinto!'
+];
 
     comenzarBtn.addEventListener('click', iniciarJuego);
     reiniciarBtn.addEventListener('click', () => location.reload());
